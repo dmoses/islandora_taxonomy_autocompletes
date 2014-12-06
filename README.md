@@ -12,7 +12,7 @@ Here are a list of taxonomies included, the associated MODS element, authority s
 |---|---|---|---|
 | Basic Genre Terms for Cultural Heritage Materials  | /mods/genre[@authority='bgtchm']  | http://memory.loc.gov/ammem/techdocs/genre.html  | field_genre_bgtchm  |
 | MARC Genre Terms  | /mods/genre[@authority='marcgt']  | http://www.loc.gov/standards/valuelist/marcgt.html  | field_genre_marcgt  |
-| Moving Image Genre Form Guide | /mods/genre/[@authority='migfg']  | http://www.loc.gov/rr/mopic/miggen.html  | field_genre_migfg  |
+| Moving Image Genre Form Guide | /mods/genre[@authority='migfg']  | http://www.loc.gov/rr/mopic/miggen.html  | field_genre_migfg  |
 * Genres
     * mods genre authority bgtchm
 
