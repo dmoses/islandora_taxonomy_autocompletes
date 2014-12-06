@@ -7,39 +7,54 @@ and a content type (Islandora Autocompletes) to hold all the fields' machine nam
 I then bundled these up using Drupal's [Features Module](http://drupal.org/project/features).  
 Here is a list of taxonomies included, authority source, the associated MODS element, the machine name for inclusion in the XML Form Builder form.  If you have other authorities you'd like to include, let me know by posting an issue or 
 
-| --- | **Description** |
-|----------|-------------------------------------------------|
+|  | **Description** |
+|----------|-----------------------------------------------------------|
 | Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
 | Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
 | MODS XPATH | /mods/genre[@authority='bgtchm'] |
 | Machine Name | field_genre_bgtchm  |
 
-| --- | **Description** |
-|----------|-------------------------------------------------|
+|  | **Description** |
+|----------|-----------------------------------------------------------|
 | Taxonomy | MARC Genre Terms |
 | Authority  | http://www.loc.gov/standards/valuelist/marcgt.html |
 | MODS XPATH | /mods/genre[@authority='marcgt'] |
 | Machine Name | field_genre_marcgt  |
 
-| --- | **Description** |
-|----------|-------------------------------------------------|
+|  | **Description** |
+|----------|-----------------------------------------------------------|
 | Taxonomy | Moving Image Genre Form Guide |
 | Authority  | http://www.loc.gov/rr/mopic/miggen.html |
 | MODS XPATH | /mods/genre[@authority='migfg'] |
 | Machine Name | field_genre_migfg  |
-|----------|-------------------------------------------------|
 
+|  | **Description** |
+|----------|-----------------------------------------------------------|
+| Taxonomy | rdacontent |
+| Authority  | http://www.loc.gov/standards/valuelist/rdacontent.html |
+| MODS XPATH | /mods/genre[@authroity='rdacontent'] |
+| Machine Name | field_rda_content |
 
-* Genres
-    * mods genre authority bgtchm
+|  | **Description** |
+|----------|-----------------------------------------------------------|
+| Taxonomy | MARC Code List for Languages |
+| Authority  | http://www.loc.gov/standards/iso639-2/ |
+| MODS XPATH |/mods/language/languageTerm[@type='type' and @authority='iso639-2b']  |
+| Machine Name | field_language_iso639_b  |
 
-mods genre authority marcgt
+|  | **Description** |
+|----------|-----------------------------------------------------------|
+| Taxonomy |  MARC Code List for Relators  |
+| Authority  | http://www.loc.gov/marc/relators/relaterm.html |
+| MODS XPATH | /mods/name/role/roleTerm[@type='text' and @authority='marcrelator'] |
+| Machine Name |  field_marc_relators |
 
-mods genre authority migfg
-
-mods genre authority rdacontent
-
-mods language languageterm authority iso639-2
+|  | **Description** |
+|----------|-----------------------------------------------------------|
+| Taxonomy |  |
+| Authority  |  |
+| MODS XPATH |  |
+| Machine Name |   |
 
 mods name role roleterm authority marcrelator
 
