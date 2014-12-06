@@ -15,12 +15,14 @@ Here is a list of taxonomies included, authority source, the associated MODS ele
 | Machine Name | field_genre_bgtchm  |
 
 | --- | **Description** |
+|----------|-------------------------------------------------|
 | Taxonomy | MARC Genre Terms |
 | Authority  | http://www.loc.gov/standards/valuelist/marcgt.html |
 | MODS XPATH | /mods/genre[@authority='marcgt'] |
 | Machine Name | field_genre_marcgt  |
 
 | --- | **Description** |
+|----------|-------------------------------------------------|
 | Taxonomy | Moving Image Genre Form Guide |
 | Authority  | http://www.loc.gov/rr/mopic/miggen.html |
 | MODS XPATH | /mods/genre[@authority='migfg'] |
