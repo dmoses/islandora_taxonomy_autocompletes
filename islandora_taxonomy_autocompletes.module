@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Islandora Taxonomy Autocompletes feature.
+ */
+
+include_once 'islandora_taxonomy_autocompletes.features.inc';
