@@ -48,6 +48,7 @@ Here is a list of taxonomies included, authority source, the associated MODS ele
 | MODS XPATH | /mods/genre[@authority='bgtchm'] |
 | Machine Name | field_genre_bgtchm  |
 |---|---|
+
 * Genres
     * mods genre authority bgtchm
 
