@@ -6,13 +6,48 @@ A while back I wrote a [post](https://groups.google.com/forum/#!topic/islandora/
 To provide users with a quick start I created a series of Drupal taxonomies 
 and a content type (Islandora Autocompletes) to hold all the fields' machine names so that they could be included as autocompletes. 
 I then bundled these up using Drupal's [Features Module](http://drupal.org/project/features).  
-Here are a list of taxonomies included, the associated MODS element, authority source, the machine name for inclusion in the XML Form Builder form.
+Here is a list of taxonomies included, authority source, the associated MODS element, the machine name for inclusion in the XML Form Builder form.
 
-|  Taxonomy | MODS Element XPATH | Authority  | Machine Name from Content Type |
-|---|---|---|---|
-| Basic Genre Terms for Cultural Heritage Materials  | /mods/genre[@authority='bgtchm']  | http://memory.loc.gov/ammem/techdocs/genre.html  | field_genre_bgtchm  |
-| MARC Genre Terms  | /mods/genre[@authority='marcgt']  | http://www.loc.gov/standards/valuelist/marcgt.html  | field_genre_marcgt  |
-| Moving Image Genre Form Guide | /mods/genre[@authority='migfg']  | http://www.loc.gov/rr/mopic/miggen.html  | field_genre_migfg  |
+| Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
+| Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
+| MODS XPATH | /mods/genre[@authority='bgtchm'] |
+| Machine Name | field_genre_bgtchm  |
+|---|---|
+| Taxonomy | MARC Genre Terms |
+| Authority  | http://www.loc.gov/standards/valuelist/marcgt.html |
+| MODS XPATH | /mods/genre[@authority='marcgt'] |
+| Machine Name | field_genre_marcgt  |
+|---|---|
+| Taxonomy | Moving Image Genre Form Guide |
+| Authority  | http://www.loc.gov/rr/mopic/miggen.html |
+| MODS XPATH | /mods/genre[@authority='migfg'] |
+| Machine Name | field_genre_migfg  |
+|---|---|
+| Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
+| Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
+| MODS XPATH | /mods/genre[@authority='bgtchm'] |
+| Machine Name | field_genre_bgtchm  |
+|---|---|
+| Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
+| Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
+| MODS XPATH | /mods/genre[@authority='bgtchm'] |
+| Machine Name | field_genre_bgtchm  |
+|---|---|
+| Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
+| Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
+| MODS XPATH | /mods/genre[@authority='bgtchm'] |
+| Machine Name | field_genre_bgtchm  |
+|---|---|
+| Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
+| Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
+| MODS XPATH | /mods/genre[@authority='bgtchm'] |
+| Machine Name | field_genre_bgtchm  |
+|---|---|
+| Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
+| Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
+| MODS XPATH | /mods/genre[@authority='bgtchm'] |
+| Machine Name | field_genre_bgtchm  |
+|---|---|
 * Genres
     * mods genre authority bgtchm
 
