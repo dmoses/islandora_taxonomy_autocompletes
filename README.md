@@ -8,46 +8,23 @@ and a content type (Islandora Autocompletes) to hold all the fields' machine nam
 I then bundled these up using Drupal's [Features Module](http://drupal.org/project/features).  
 Here is a list of taxonomies included, authority source, the associated MODS element, the machine name for inclusion in the XML Form Builder form.
 
+| Bits | Pieces |
+| --- | --- |
 | Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
 | Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
 | MODS XPATH | /mods/genre[@authority='bgtchm'] |
 | Machine Name | field_genre_bgtchm  |
-|---|---|
+| --- | --- |
 | Taxonomy | MARC Genre Terms |
 | Authority  | http://www.loc.gov/standards/valuelist/marcgt.html |
 | MODS XPATH | /mods/genre[@authority='marcgt'] |
 | Machine Name | field_genre_marcgt  |
-|---|---|
+| --- | --- |
 | Taxonomy | Moving Image Genre Form Guide |
 | Authority  | http://www.loc.gov/rr/mopic/miggen.html |
 | MODS XPATH | /mods/genre[@authority='migfg'] |
 | Machine Name | field_genre_migfg  |
-|---|---|
-| Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
-| Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
-| MODS XPATH | /mods/genre[@authority='bgtchm'] |
-| Machine Name | field_genre_bgtchm  |
-|---|---|
-| Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
-| Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
-| MODS XPATH | /mods/genre[@authority='bgtchm'] |
-| Machine Name | field_genre_bgtchm  |
-|---|---|
-| Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
-| Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
-| MODS XPATH | /mods/genre[@authority='bgtchm'] |
-| Machine Name | field_genre_bgtchm  |
-|---|---|
-| Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
-| Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
-| MODS XPATH | /mods/genre[@authority='bgtchm'] |
-| Machine Name | field_genre_bgtchm  |
-|---|---|
-| Taxonomy | Basic Genre Terms for Cultural Heritage Materials |
-| Authority  | http://memory.loc.gov/ammem/techdocs/genre.html |
-| MODS XPATH | /mods/genre[@authority='bgtchm'] |
-| Machine Name | field_genre_bgtchm  |
-|---|---|
+| --- | --- |
 
 * Genres
     * mods genre authority bgtchm
