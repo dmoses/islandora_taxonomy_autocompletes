@@ -77,12 +77,11 @@ mods targetAudience authority marctarget
 
 Here are some sample steps for creating your own taxonomy.
 
-# create a taxonomy in drupal /admin/structure/taxonomy   ... for the proof of concept I used the values for the mods:typeOfResource element [taxonomy1.png] and then created a few more for other elements I typically use [taxonomy2.png].
+1. create a taxonomy in drupal /admin/structure/taxonomy   ... for the proof of concept I used the values for the mods:typeOfResource element [taxonomy1.png] and then created a few more for other elements I typically use [taxonomy2.png].
 
 ![alt text](https://groups.google.com/group/islandora/attach/ba970abe2f7fc2c3/taxonomy1.png?part=0.2&authuser=0&view=1 "Taxonomy 1")
-# create a content type that includes the taxonomies you've created - admin/structure/types.  I created a content type called islandora autocomplete fields and added my taxonomies to that content type.  I'm not using that content type for anything other that generating the fields for the taxonomies.[taxonomy3.png].
+2. create a content type that includes the taxonomies you've created - admin/structure/types.  I created a content type called islandora autocomplete fields and added my taxonomies to that content type.  I'm not using that content type for anything other that generating the fields for the taxonomies.[taxonomy3.png].
 
-# create a textfield form element in your form, for that element select the Advanced Form Controls, then in the Autocomplete Path enter the machine name of the field you added to your content type. For me it is taxonomy/autocomplete/field_typeofresource .[taxonomy4.png]
+3 create a textfield form element in your form, for that element select the Advanced Form Controls, then in the Autocomplete Path enter the machine name of the field you added to your content type. For me it is taxonomy/autocomplete/field_typeofresource .[taxonomy4.png]
 
-# test your form. [taxonomy5.png]
-a drupal module that includes a number of taxonomy commonly used with MODS metadata elements.
+4. test your form. [taxonomy5.png]
